@@ -121,15 +121,6 @@
   background: #a59cca;
 }
 
-@media (max-width: 991.98px) {
-  .header {
-    background-size: cover;
-  }
-  .header-content {
-    /* padding-left: calc(100% / 5) !important; */
-  }
-}
-
 .image-container {
   position: relative;
 }
@@ -340,13 +331,6 @@
   border-left: 2px solid #1f97af;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  .container {
-    width: 70%;
-  }
-}
-
 .arrow-link {
   position: absolute;
   bottom: 20px;
@@ -414,4 +398,140 @@
 
 .userNoCopy {
   user-select: none;
+}
+
+/* MEDIA QUERIEs */
+
+@media (max-width: 991.98px) {
+  .header {
+    background-size: cover;
+  }
+  .cell_part {
+    width: 50rem;
+  }
+
+  .nucleus_part {
+    width: 19rem;
+    top: 15rem;
+    left: 18.5rem;
+  }
+  .nucleolus_part {
+    width: 7.3rem;
+    top: 19.5rem;
+    left: 26rem;
+  }
+
+  .endoplasmatic_rough_part {
+    width: 15.2rem;
+    top: 23.5rem;
+    left: 26rem;
+  }
+  .endoplasmatic_rough_part_2 {
+    width: 10.2rem;
+    top: 12.5rem;
+    left: 16.4rem;
+  }
+  .endoplasmatic_smooth_part {
+    width: 10.2rem;
+    top: 28.5rem;
+    left: 31.4rem;
+  }
+  .microvilli_part {
+    top: 36.7rem;
+    width: 9.5%;
+    left: 40rem;
+  }
+  .mithocondry_part {
+    top: 8.8rem;
+    width: 13%;
+    left: 16.3rem;
+  }
+  .mithocondry_part_2 {
+    top: 21.5em;
+    left: 38.8rem;
+    width: 12%;
+  }
+  .lysosome_part {
+    top: 11.15rem;
+    width: 9.5%;
+    left: 35.8em;
+  }
+  .microtubules_part {
+    top: 17.9rem;
+    width: 12%;
+    left: 9.6rem;
+  }
+  .golgi_part {
+    top: 28.7rem;
+    width: 20%;
+    left: 14.5rem;
+  }
+  .centrioles_part_1 {
+    top: 7.5rem;
+    width: 8.5%;
+    left: 33.2rem;
+  }
+  .centrioles_part_2 {
+    top: 27rem;
+    width: 8%;
+    left: 12rem;
+  }
+  .vacuole_part {
+    top: 7rem;
+    width: 5.5%;
+    left: 28.7rem;
+  }
+  .ribosome_unit_part {
+    top: 13rem;
+    width: 3%;
+    left: 29rem;
+  }
+  .ribosome_unit_part_2 {
+    top: 25.7rem;
+    width: 3%;
+    left: 45rem;
+  }
+  .ribosome_unit_part_3 {
+    top: 16rem;
+    width: 2.5%;
+    left: 14.6rem;
+  }
+  .ribosome_unit_part_4 {
+    top: 34.2rem;
+    width: 2.5%;
+    left: 25.5rem;
+  }
+  .others_unit_part {
+    top: 35rem;
+    width: 1.8%;
+    left: 29.1rem;
+  }
+  .others_unit_part_2 {
+    top: 24.3rem;
+    width: 1.5%;
+    left: 15.6rem;
+  }
+  .others_unit_part_3 {
+    top: 10rem;
+    width: 1.8%;
+    left: 25.3rem;
+  }
+  .header-title {
+    font-size: 2.8rem;
+    padding-bottom: 2rem;
+  }
+  .cytoplasm_part {
+    top: 4.3rem;
+    width: 8%;
+    left: 21rem;
+  }
+  .membrane_part {
+    top: 17.3rem;
+    width: 10%;
+    left: 38.7rem;
+  }
+  #advice {
+    transform: scale(1.7);
+    margin-top: 3rem;
+  }
 }
