@@ -98,6 +98,36 @@ document.addEventListener("DOMContentLoaded", () => {
           title = "Citoplasma";
           img = "img/img_desc/citoplasma.jpg";
           break;
+        case "cell_def":
+          message =
+            "Desde siempre se ha tenido muy claro la definición de célula desde la biología, concepto ya declarado, puede pensarse que nos falta es apoderamiento de dicho concepto al momento de hacer uso de él en el contexto del diario vivir, para mejor cada día mas y valorar la vida desde la biología. La célula es la unidad estructural y funcional de todos los organismos vivos. Constituye la forma más pequeña y simple de organización biológica, es decir, la estructura ordenada y viviente más pequeña que se conoce. Son ejemplos de células los espermatozoides y las neuronas. La célula es la entidad más pequeña que se considera viva. El tamaño de las células puede variar mucho. Una célula de tamaño promedio mide alrededor de 10 µm (micrómetros). La gran mayoría de las células son microscópicas, es decir, solo pueden ser vistas utilizando un microscopio. Por otro lado, existen células que pueden ser observadas a simple vista, este es el caso del óvulo humano, que mide 100 µm y tiene un tamaño similar al de la punta de un lápiz. El descubrimiento de la célula se considera el paso fundacional del estudio moderno de la vida (biología), dado que permitió comprender la enorme complejidad del cuerpo de los seres vivos y permitió el surgimiento de numerosas ciencias y disciplinas posteriores.";
+          title = "¿Qué es una célula?";
+          img = "img/img_desc/celula.jpg";
+          break;
+        case "cell_types":
+          message =
+            "Célula procariota: esta presenta dos estructuras principales la membrana plasmática y el citoplasma son pequeñas y simples. Células eucariotas: esta célula se define como dominio eukarya, en donde se clasifican a los animales, los hongos, las plantas, y los protozoarios. Célula vegetal: tipo de célula eucariota se caracteriza por tener la capacidad de obtener energía a partir de la luz solar. Célula animal: posee una membrana plasmática que delimita el citoplasma donde se encuentran el núcleo y los otros organeros. Células epiteliales: estas se encuentran recubriendo el exterior del organismo (en la piel) y las superficies internas. adipocitos: son células de almacenamiento de los lípidos y se encuentran en el tejido conectivo y el tejido adiposo. Son muy grandes y redondas. Fibroblastos: es la responsable de la formación y mantenimiento del tejido conectivo. Monocitos y Macrófagos: estas son las encargadas del sistema inmune en la medula ósea y se liberan en la sangre luego de un tiempo los monocitos salen de los vasos sanguíneos. Células musculares: se caracterizan principalmente por su capacidad de contraerse. Son alargadas en la dirección del movimiento que realizan. Glóbulos rojos: trasportan el oxígeno a todas las partes del cuerpo. Células Oseas: aparecen en la etapa del crecimiento del hueso";
+          title = "Tipo de células";
+          img = "img/img_desc/celula_tipos.jpg";
+          break;
+        case "cell_function":
+          message =
+            "Según el tipo de célula así mismo es su función, podríamos decir que sus tres funciones básicas son las de nutrirse dentro de su proceso metabólico, relacionarse a través de estímulos tanto internos como externos lo cual genera una o varias respuestas y reproducirse por medio de la mitosis y la meiosis. Pero también hay otras funciones como la estructural en la formación de tejidos, funciones secretoras, funciones defensivas etc. ";
+          title = "Función de las células";
+          img = "img/img_desc/celula_funcion.jpg";
+          break;
+        case "cell_organs":
+          message =
+            "Son estructuras subcelulares que se encuentran dentro del citoplasma de la célula y que cumplen funciones especificas como los distintos órganos en el cuerpo, como dice Gartner, L.P (2007) “ los orgánulos son unidades metabólicamente activas de la materia celular”.  Dentro de los principales encontramos a las mitocondrias, retículo endoplasmático, el complejo de Golgi, los lisosomas, el Núcleo, etc. Según Fortoul van (2013) Los organelos celulares se pueden clasificar, con fines didácticos, en: a) membranosos (con membranas que separan el medio interno del organelo del citoplasma circundante) y b) no membranosos (que no están rodeados por membrana). Los membranosos incluyen a la membrana plasmática, los retículos endoplásmicos rugoso y liso, el aparato de Golgi, las endosomas, los lisosomas, las vesículas de transporte, las mitocondrias y los peroxisomas. Los no membranosos son el nucleolo, el citoesqueleto, los centriolos, los ribosomas, los polirribosomas y las proteasomas.";
+          title = "Organelos de las células";
+          img = "img/img_desc/organelos.jpg";
+          break;
+        case "bibliography":
+          message =
+            "https://concepto.de/celula-2/#ixzz81R6F6YSN. https://www.diferenciador.com/tipos-de-celulas/. https://elibro.net/es/ereader/biblioibero/124810?page=48. https://accessmedicina.mhmedical.com/content.aspx?bookid=1502&sectionid=94732336. https://accessmedicina.mhmedical.com/content.aspx?bookid=1502&sectionid=94733584";
+          title = "Bibliografía y fuentes";
+          img = "img/img_desc/bibliografia.png";
+          break;
         default:
           message = "Lo sentimos, no logramos encontrar el organelo solicitado";
           title = "Error";
