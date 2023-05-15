@@ -1,0 +1,417 @@
+.header {
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(
+    bottom,
+    #fff 0%,
+    rgba(105, 90, 166, 0.35) 99%,
+    rgba(105, 90, 166, 0.5) 100%
+  );
+  background-image: linear-gradient(
+    to top,
+    #fff 0%,
+    rgba(105, 90, 166, 0.35) 99%,
+    rgba(105, 90, 166, 0.5) 100%
+  );
+}
+
+.header .header-content {
+  margin-top: 20px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 550px;
+}
+
+.header .header-content .header-title .up {
+  font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 5px;
+  position: relative;
+  display: block;
+}
+
+.header .header-content .header-title .down {
+  font-size: calc(30px + (75 - 30) * ((100vw - 300px) / (1300 - 300)));
+  margin-bottom: 0;
+  position: relative;
+  display: block;
+}
+
+.header .header-content .header-subtitle {
+  font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
+  letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
+  opacity: 0.8;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.header .header-content .btn {
+  position: relative;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 8px 15px;
+}
+
+.header-title {
+  opacity: 0.9;
+  font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1300 - 300)));
+  font-weight: bold;
+  color: #695aa6;
+}
+
+.header-advice {
+  opacity: 0.8;
+  font-size: calc(12px + (22 - 20) * ((100vw - 300px) / (1300 - 300)));
+}
+
+.card-titleStyle {
+  color: #695aa6 !important;
+}
+
+.header-mini {
+  min-height: 24rem;
+  height: 24rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  background: #a59cca;
+}
+
+@media (max-width: 991.98px) {
+  .header {
+    background-size: cover;
+  }
+  .header-content {
+    /* padding-left: calc(100% / 5) !important; */
+  }
+}
+
+.image-container {
+  position: relative;
+}
+
+.cell_part {
+  position: relative;
+  z-index: 0;
+}
+.nucleus_part {
+  position: absolute;
+  top: 7rem;
+  left: 9.3rem;
+  z-index: 2;
+}
+.nucleolus_part {
+  position: absolute;
+  top: 9.5rem;
+  left: 13.4rem;
+  z-index: 3;
+}
+
+.endoplasmatic_rough_part {
+  position: absolute;
+  top: 11.6rem;
+  left: 13.3rem;
+  z-index: 4;
+}
+.endoplasmatic_rough_part_2 {
+  position: absolute;
+  top: 5.9rem;
+  left: 8.4rem;
+  z-index: 4;
+}
+
+.mithocondry_part {
+  position: absolute;
+  top: 3.9rem;
+  left: 8.3rem;
+  z-index: 4;
+}
+.mithocondry_part_2 {
+  position: absolute;
+  top: 10.5em;
+  left: 19.8rem;
+  width: 12%;
+  z-index: 4;
+}
+
+.endoplasmatic_smooth_part {
+  position: absolute;
+  top: 14rem;
+  width: 21%;
+  left: 16rem;
+  z-index: 5;
+}
+
+.microtubules_part {
+  position: absolute;
+  top: 8.9rem;
+  width: 12%;
+  left: 5rem;
+  z-index: 4;
+}
+.lysosome_part {
+  position: absolute;
+  top: 5.15rem;
+  width: 9.5%;
+  left: 17.8em;
+  z-index: 4;
+}
+
+.microvilli_part {
+  position: absolute;
+  top: 17.3rem;
+  width: 9.5%;
+  left: 20.2rem;
+  z-index: 5;
+}
+
+.golgi_part {
+  position: absolute;
+  top: 14.35rem;
+  width: 18%;
+  left: 7.4rem;
+  z-index: 5;
+}
+
+.vacuole_part {
+  position: absolute;
+  top: 3rem;
+  width: 5.5%;
+  left: 14.7rem;
+  z-index: 5;
+}
+
+.membrane_part {
+  position: absolute;
+  top: 8.3rem;
+  width: 10%;
+  left: 18.7rem;
+  z-index: 2;
+  transition: all ease 0.1s !important;
+}
+
+.membrane_part:hover {
+  border: 2px #b5e8ef solid;
+  width: 8%;
+  border-radius: 1rem;
+}
+
+.cytoplasm_part {
+  position: absolute;
+  top: 2.2rem;
+  width: 8%;
+  left: 9.7rem;
+  z-index: 2;
+  transition: all ease 0.1s !important;
+}
+
+.cytoplasm_part:hover {
+  border: 2px #0087da54 solid;
+  width: 8%;
+  border-radius: 1rem;
+}
+
+.centrioles_part_1 {
+  position: absolute;
+  top: 4rem;
+  width: 9%;
+  left: 15.7rem;
+  z-index: 5;
+}
+
+.centrioles_part_2 {
+  position: absolute;
+  top: 13rem;
+  width: 9%;
+  left: 6rem;
+  transform: rotate(26deg);
+  z-index: 1;
+}
+
+.ribosome_unit_part {
+  position: absolute;
+  top: 7rem;
+  width: 4%;
+  left: 7rem;
+  z-index: 5;
+}
+.ribosome_unit_part_2 {
+  position: absolute;
+  top: 5.7rem;
+  width: 3%;
+  left: 14.2rem;
+  z-index: 1;
+}
+.ribosome_unit_part_3 {
+  position: absolute;
+  top: 16.5rem;
+  width: 3%;
+  left: 12.6rem;
+  z-index: 1;
+}
+.ribosome_unit_part_4 {
+  position: absolute;
+  top: 12.2rem;
+  width: 3%;
+  left: 22.2rem;
+  z-index: 1;
+}
+
+.others_unit_part {
+  position: absolute;
+  top: 17rem;
+  width: 1.8%;
+  left: 15.1rem;
+  filter: saturate(2);
+  z-index: 1;
+}
+
+.others_unit_part_2 {
+  position: absolute;
+  top: 12rem;
+  width: 1.8%;
+  left: 8.1rem;
+  filter: saturate(2);
+  z-index: 1;
+}
+
+.others_unit_part_3 {
+  position: absolute;
+  top: 4rem;
+  width: 1.8%;
+  left: 13.1rem;
+  filter: saturate(2);
+  z-index: 1;
+}
+.interactive {
+  transition: all ease 0.5s;
+}
+
+.interactive:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.adviceStyle {
+  background-color: #20aa3e;
+  border-left: 2px solid #1f97af;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    width: 70%;
+  }
+}
+
+.arrow-link {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: none;
+  color: #fff;
+}
+
+.arrow {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #695aa6;
+  border-width: 0 5px 5px 0;
+  transform: rotate(45deg);
+  transition: transform 0.5s ease-in-out;
+  animation: zoomInOut 3s infinite alternate;
+}
+
+.arrow-link:hover .arrow {
+  transform: rotate(45deg) scale(1.2);
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: rotate(45deg) scale(1);
+  }
+  50% {
+    transform: rotate(45deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(45deg) scale(1);
+  }
+}
+
+.list-group .list-group-item {
+  cursor: pointer;
+  transition: all ease-in 0.1s;
+}
+
+.list-group .list-group-item:hover {
+  transform: scale(1.1);
+  border: 2px solid #695aa6;
+  background-color: #eeecf5;
+  margin-bottom: 2px;
+}
+
+.zoom-effect {
+  animation-name: zoomInOutImages;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoomInOutImages {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+}
+
+.userNoCopy {
+  user-select: none;
+}
