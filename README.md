@@ -13,5 +13,7 @@ https://cell.jrmanage.co/
 # Version
 Remember that this is only a prototype and in the future we could support this in a different way. If you want to support this project, feel free to clone it and work with it 
 This is only a research project looking to help people to better understand the cell's part. For now we haven't worked in an English version but we'll do if required. 
+# LICENSE
+MIT
 
 Thank you.
